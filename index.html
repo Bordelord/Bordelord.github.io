@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+Checkbox: <input type="checkbox" id="myCheck">
+
+<button onclick="check()">Check Checkbox</button>
+<button onclick="uncheck()">Uncheck Checkbox</button>
+
+<script>
+function check() {
+  document.getElementById("myCheck").checked = true;
+}
+
+function uncheck() {
+  document.getElementById("myCheck").checked = false;
+}
+</script>
+
 </body>
 </html>
